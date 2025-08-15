@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rdo.analitica">
+    <application
+        android:allowBackup="true"
+        android:label="RDO ANALITICA"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.RDOAnalitica">
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".Step2Activity" />
+        <activity android:name=".Step1Activity" />
+        <activity android:name=".FormActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
